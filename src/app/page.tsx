@@ -67,8 +67,8 @@ export default function FullPortfolioPage() {
         {/* Hero Card & Quick Metrics */}
         <div className="lg:col-span-5 bg-slate-900/90 p-8 rounded-3xl border border-slate-800 shadow-2xl">
           <div className="text-center mb-6">
-            <div className="w-24 h-24 rounded-2xl bg-amber-500 text-slate-950 font-extrabold text-3xl mx-auto mb-4 flex items-center justify-center">
-              TO
+            <div className="w-28 h-28 mx-auto mb-4 relative rounded-2xl overflow-hidden border-2 border-amber-500 shadow-xl">
+              <img src="/profile.jpg" alt="Tobias Obura - Education Leader" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-xl font-bold text-slate-100">Tobias Obura</h3>
             <p className="text-xs text-amber-400">Education Leader & EdTech Strategist</p>
